@@ -3,6 +3,8 @@
   border-bottom: 1px solid #eaeaea;
   background-color: #fff;
   position: sticky;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .list {

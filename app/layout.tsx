@@ -4,10 +4,10 @@ import Navigation from "../components/navigation";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Next Movies",
-    default: "Next Movies",
+    template: "%s | new york times bestseller",
+    default: "new york times bestseller",
   },
-  description: "The best movies on the best framework",
+  description: "Don’t put off till tomorrow what you can do today",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -5,13 +5,12 @@ export const metadata = {
   title: "Home-뉴욕 타임즈 베스트셀러",
 };
 
-export const API_URL = " https://books-api.nomadcoders.workers.dev/lists";
+export const API_URL = "https://books-api.nomadcoders.workers.dev/list";
 
 async function getBooks() {
   // await new Promise((resolve) => setTimeout(resolve, 1000));
-  const response = await fetch(API_URL);
+  const response = await fetch(`${API_URL}s`);
   const json: BookListsResponse = await response.json();
-  console.log(json);
   return json;
 }
 
