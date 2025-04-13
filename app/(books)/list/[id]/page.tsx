@@ -4,7 +4,7 @@ import BookInfo from "../../../../components/book-info";
 export default async function BookDetail({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
 
