@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { API_URL } from "../app/(home)/page";
 import styles from "../styles/detail.module.css";
 
 async function getBooks(title: string) {
   await new Promise((resolve) => setTimeout(resolve, 5000));
-  console.log(`${API_URL}?name=${title}`);
-  const response = await fetch(`${API_URL}?name=${title}`);
+  const response = await fetch(
+    `https://books-api.nomadcoders.workers.dev/list?name=${title}`
+  );
   return response.json();
 }
 

@@ -5,7 +5,7 @@ export const metadata = {
   title: "Home-뉴욕 타임즈 베스트셀러",
 };
 
-export const API_URL = "https://books-api.nomadcoders.workers.dev/list";
+const API_URL = "https://books-api.nomadcoders.workers.dev/list";
 
 async function getBooks() {
   // await new Promise((resolve) => setTimeout(resolve, 1000));
