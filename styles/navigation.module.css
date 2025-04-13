@@ -1,0 +1,11 @@
+.nav {
+  padding: 2rem 1.6rem;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fff;
+  position: sticky;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}

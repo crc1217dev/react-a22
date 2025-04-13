@@ -1,0 +1,29 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  margin: 1rem;
+}
+.listItem:hover {
+  background-color: #f0f0f0;
+}
+.listItem a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: center;
+}
