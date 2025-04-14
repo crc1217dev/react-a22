@@ -29,6 +29,7 @@
   width: 100%;
   height: auto;
   border-radius: 5px;
+  max-height: 34vh;
 }
 .title {
   font-size: 24px;
